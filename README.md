@@ -58,20 +58,25 @@ DOWLOAD : https://github.com/junioralive/Indian-Medicine-Dataset/blob/main/DATA/
 ```
 
 ## API Usage Example (THIS IS PRIVATE)
-To insert data into the MongoDB using the Data API, you can use the following `curl` command:
+To insert data into the MongoDB using the Data API, you can use the following `requests` library:
 
-```bash
-curl --location --request POST 'https://data.mongodb-api.com/app/data-YOUR_APP_ID/endpoint/data/v1/action/insertOne' \
---header 'Content-Type: application/json' \
---header 'api-key: YOUR_API_KEY' \
---data-raw '{ 
-    "dataSource": "Cluster0", 
-    "database": "indianmedcinedataset", 
-    "collection": "indianmedcinedataset", 
-    "document": { 
-        "key": "value" 
-    } 
-}'
+```python
+url = f'https://data.mongodb-api.com/app/{app_id}/endpoint/data/v1/action/findOne'
+
+headers = {
+    'Content-Type': 'application/json',
+    'api-key': api_key
+}
+
+data = {
+    "dataSource": "indianmedicinedata",
+    "database": "indianmedicinedatabase",
+    "collection": "indianmedicinedatabase",
+    "filter": {
+        "name": "Augmentin 625 Duo Tablet"
+    }
+}
+response = requests.post(url, headers=headers, data=json.dumps(data))'
 ```
 
 Replace `YOUR_APP_ID`, `YOUR_API_KEY`, `yourDatabase`, `yourCollection`, and the document content with your actual data.
