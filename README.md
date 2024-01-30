@@ -28,7 +28,9 @@ The dataset is available in two formats:
 
 ### CSV Format
 
-DOWLOAD : ```https://github.com/junioralive/Indian-Medicine-Dataset/blob/main/DATA/indian_medicine_data.csv```
+DOWLOAD : ```bash
+https://github.com/junioralive/Indian-Medicine-Dataset/blob/main/DATA/indian_medicine_data.csv
+```
 
 ```
 id,name,price(₹),Is_discontinued,manufacturer_name,type,pack_size_label,short_composition1,short_composition2
@@ -38,7 +40,9 @@ id,name,price(₹),Is_discontinued,manufacturer_name,type,pack_size_label,short_
 
 ### JSON Format
 
-DOWLOAD : ```https://github.com/junioralive/Indian-Medicine-Dataset/blob/main/DATA/indian_medicine_data.json```
+DOWLOAD : ```bash 
+https://github.com/junioralive/Indian-Medicine-Dataset/blob/main/DATA/indian_medicine_data.json
+```
 
 ```json
 [
