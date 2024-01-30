@@ -82,4 +82,4 @@ response = requests.post(url, headers=headers, data=json.dumps(data))'
 Replace `YOUR_APP_ID`, `YOUR_API_KEY`, `yourDatabase`, `yourCollection`, and the document content with your actual data.
 
 ## Usage and Contributions
-This dataset is open for use by anyone interested in exploring Indian pharmaceutical products. We encourage contributions, especially in expanding the dataset, refining the existing data, and suggesting new ways to analyze and interpret the data.
+This dataset is open for use by anyone interested in exploring Indian pharmaceutical products. I encourage contributions, especially in expanding the dataset, refining the existing data, and suggesting new ways to analyze and interpret the data.
