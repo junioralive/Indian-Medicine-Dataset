@@ -27,15 +27,19 @@ The dataset is available in two formats:
 ## Data Example
 
 ### CSV Format
+
+DOWLOAD : https://github.com/junioralive/Indian-Medicine-Dataset/blob/main/DATA/indian_medicine_data.csv
+
 ```
 id,name,price(₹),Is_discontinued,manufacturer_name,type,pack_size_label,short_composition1,short_composition2
 1,Augmentin 625 Duo Tablet,223.42,FALSE,Glaxo SmithKline Pharmaceuticals Ltd,allopathy,strip of 10 tablets,Amoxycillin (500mg),Clavulanic Acid (125mg)
 ...
 ```
 
-https://ap-south-1.aws.data.mongodb-api.com/app/data-gejka/endpoint/data/v1
-
 ### JSON Format
+
+DOWLOAD : https://github.com/junioralive/Indian-Medicine-Dataset/blob/main/DATA/indian_medicine_data.json
+
 ```json
 [
     {
